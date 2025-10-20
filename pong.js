@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const ctx = canvas.getContext('2d');
 
     // VARIÁVEIS DO JOGO
-    let ball = { x: canvas.width / 2, y: canvas.height / 2, radius: 10, speedX: 5, speedY: 5 };
+    let ball = { x: canvas.width / 2, y: canvas.height / 20, radius: 10, speedX: 500, speedY: 500 };
     let player = { x: 10, y: canvas.height / 2 - 50, width: 10, height: 100, score: 0 };
     let computer = { x: canvas.width - 20, y: canvas.height / 2 - 50, width: 10, height: 100, score: 0 };
     const net = { x: canvas.width / 2 - 1, y: 0, width: 2, height: 10 };
